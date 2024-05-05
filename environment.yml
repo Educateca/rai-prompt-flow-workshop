@@ -9,7 +9,7 @@ dependencies:
   - pip:
     - ipykernel
     - openai==0.27.8
-    - azureml-rag[faiss]>=0.1.11
+    - azureml-rag[faiss]>=0.2.30.2 # 0.1.11
     - promptflow[azure]>=1.2.0 
     - promptflow-tools==0.1.0.b5
     - promptflow-vectordb==0.1.2
